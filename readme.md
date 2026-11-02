@@ -1,4 +1,4 @@
-# overnight
+# Recommended for Overnight Session
 python rubiks_ai.py train --iters 200000 --batch 4096 --hidden 512 --blocks 4 --max_depth 26 --save cube_model.pt --device cuda
 # 3x3x3
 python rubiks_ai.py train --iters 50000 --batch 2048 --hidden 512 --blocks 3 --max_depth 26 --save cube_model.pt --device cuda
